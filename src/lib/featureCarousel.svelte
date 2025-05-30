@@ -11,17 +11,17 @@
     {
       title: $t('carousel.0.title'),
       description: $t('carousel.0.desc'),
-      image: "./src/public/friends-statue.png",
+      image: "/public/friends-statue.png",
     },
     {
       title: $t('carousel.1.title'),
       description: $t('carousel.1.desc'),
-      image: "./src/public/statue-running.png",
+      image: "/public/statue-running.png",
     },
     {
       title: $t('carousel.2.title'),
       description: $t('carousel.2.desc'),
-      image: "./src/public/cell-statue.png",
+      image: "/public/cell-statue.png",
     },
   ];
 

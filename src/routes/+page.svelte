@@ -41,13 +41,13 @@
     </button>
 </div>
 
-<div class="min-h-screen bg-white">
+<div class=" bg-white">
     <!-- Hero Section -->
     <section class="min-h-screen bg-gradient-to-br from-gray-800 to-orange-500 flex items-center justify-center px-4">
 
         <div class="absolute inset-0 -z-0">
           <img
-            src="./src/public/gradient-background.png"
+            src="/gradient-background.png"
             alt="Gradient background"
             class="w-full h-full object-cover absolute top-0 left-0 z-0"
           />
@@ -58,7 +58,7 @@
 
             <div class="-z-0">
                 <img
-                    src="./src/public/note-statue.png"
+                    src="/public/note-statue.png"
                     alt="Gradient background"
                     width="500"
                     height="650"
@@ -160,7 +160,7 @@
         <div class="max-w-md mx-auto w-full py-5">
             <div>
                 <img
-                    src="./src/public/db-statue.png"
+                    src="/public/db-statue.png"
                     alt="Big Biceps"
                     width="500"
                     height="650"

@@ -7,10 +7,10 @@
   let interval: ReturnType<typeof setInterval> | null = null;
 
   const appScreens = [
-    './src/public/dashboardGYM.jpg',
-    './src/public/dashboardGYM2.jpg',
-    './src/public/dashboardSTU.jpg',
-    './src/public/dashboardSTU2.jpg',
+    '/dashboardGYM.jpg',
+    '/dashboardGYM2.jpg',
+    '/dashboardSTU.jpg',
+    '/dashboardSTU2.jpg',
   ];
 
   function nextSlide() {
