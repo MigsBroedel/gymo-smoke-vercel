@@ -104,24 +104,20 @@ export default {
     "homepage.signup.form.cta": "Garanta o Acesso Antecipado Agora",
     "homepage.signup.form.loading": "Entrando...",
     "homepage.signup.note": "Sem spam, nunca. Cancele a inscrição a qualquer momento.",
-     "carousel.0.title": "Acompanhe seus treinos",
-    "carousel.0.desc": "Registre seus exercícios e monitore seu progresso físico de forma clara.",
 
-    "carousel.1.title": "Gráficos de desempenho",
-    "carousel.1.desc": "Visualize seu crescimento com gráficos de peso, repetições e muito mais.",
+    "carousel.0.title": "Conecte-se com seus alunos",
+    "carousel.0.desc": "Nossa plataforma facilita o acompanhamento do progresso de cada aluno em tempo real.",
 
-    "carousel.2.title": "Personalize seus treinos",
-    "carousel.2.desc": "Monte treinos personalizados com exercícios, séries e repetições definidas por você.",
+    "carousel.1.title": "Treinos otimizados",
+    "carousel.1.desc": "Organize rotinas de treino de forma simples e personalizada.",
 
-    "carousel.3.title": "Histórico de resultados",
-    "carousel.3.desc": "Veja seu histórico completo de treinos e acompanhe sua evolução.",
+    "carousel.2.title": "Pratique sua modalidade favorita",
+    "carousel.2.desc": "Suporte a diversas modalidades, como musculação, calistenia, corrida, ciclismo, yoga, crossfit...",
 
-    "carousel.4.title": "Tudo no seu bolso",
-    "carousel.4.desc": "Leve seu acompanhamento de treino para onde quiser com nosso app responsivo.",
     "appCarousel.0.title": "Acompanhe seu progresso diário!",
     "appCarousel.1.title": "Compartilhe sua jornada e comemore resultados juntos!",
     "appCarousel.0.desc": "Interface intuitiva para acompanhar treinos, exercícios e evolução com gráficos detalhados e motivação constante.",
-    "appCarousel.1.desc": "Compartilhe sua jornada e comemore resultados juntos!",
+    "appCarousel.1.desc": "Inspire com seu progresso e conecte-se com amigos e treinadores.",
     "footer.contact": "Fale conosco:"
   }
 };

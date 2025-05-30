@@ -150,5 +150,6 @@
                         {$t('homepage.signup.note')}
                     </p>
                 </div>
+                
             </div>
 </main>
