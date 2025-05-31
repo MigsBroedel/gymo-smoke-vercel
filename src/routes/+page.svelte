@@ -155,7 +155,7 @@
                 <img
                     src="/db-statue.png"
                     alt="Big Biceps"
-                    width="350"
+                    width="370"
                     height="390"
                     class="object-cover sm:w-[500px] sm:h-[650px] mb-4 sm:mb-0"
                 />

@@ -5,11 +5,18 @@
 
       let email = "";
     let name = "";
-    let whoami = "";
+    let role = "";
     let isSubmitted = false;
     let isLoading = false;
 
     console.log(locale, t)
+
+    const apiUri = import.meta.env.VITE_API_URI;
+
+    if (!apiUri) {
+  throw new Error("API URI não definida! Verifique o .env");
+}
+
 
     
 
@@ -23,10 +30,10 @@
         if (!email || !name) return;
         isLoading = true;
         try {
-            const response = await fetch(import.meta.env.API_URI, {
+            const response = await fetch(apiUri, {
                 method: 'POST',
                 headers: { 'Content-Type': 'application/json' },
-                body: JSON.stringify({ name, email, whoami }) // ajust to structure backend + add language space
+                body: JSON.stringify({ name, email, role }) // ajust to structure backend + add language space
             });
             const result = await response.json();
 
@@ -104,10 +111,10 @@
                             <input id="email" type="email" bind:value={email} placeholder={$t('homepage.signup.form.emailPlaceholder')} required class="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:border-transparent" />
                         </div>
                         <div>
-                            <label for="whoami" class="block text-sm font-medium text-gray-700 mb-1">
+                            <label for="role" class="block text-sm font-medium text-gray-700 mb-1">
                                 {$t('homepage.signup.form.whoami')}
                             </label>
-                            <select id="whoami" class="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-orange-500 focus:border-transparent" required bind:value={whoami}>
+                            <select id="role" class="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-orange-500 focus:border-transparent" required bind:value={role}>
                                 <option value="" disabled selected>{$t('homepage.signup.form.whoamiPlaceholder')}</option>
                                 <option value="coach">{$t('homepage.signup.form.coach')}</option>
                                 <option value="athlete">{$t('homepage.signup.form.athlete')}</option>
