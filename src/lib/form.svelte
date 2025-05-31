@@ -14,7 +14,7 @@
     const apiUri = import.meta.env.VITE_API_URI;
 
     if (!apiUri) {
-  throw new Error("API URI não definida! Verifique o .env");
+  throw new Error("API URI não definida! Verifique .env");
 }
 
 
